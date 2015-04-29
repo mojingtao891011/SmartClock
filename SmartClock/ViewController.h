@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  SmartClock
+//
+//  Created by taomojingato on 15/4/29.
+//  Copyright (c) 2015年 mojingato. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+

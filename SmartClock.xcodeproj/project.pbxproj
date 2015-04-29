@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBC4E1341AF0C022002C4C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4E1331AF0C022002C4C50 /* main.m */; };
+		FBC4E1371AF0C022002C4C50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4E1361AF0C022002C4C50 /* AppDelegate.m */; };
+		FBC4E13A1AF0C022002C4C50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4E1391AF0C022002C4C50 /* ViewController.m */; };
+		FBC4E13D1AF0C022002C4C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC4E13B1AF0C022002C4C50 /* Main.storyboard */; };
+		FBC4E13F1AF0C022002C4C50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC4E13E1AF0C022002C4C50 /* Images.xcassets */; };
+		FBC4E1421AF0C022002C4C50 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBC4E1401AF0C022002C4C50 /* LaunchScreen.xib */; };
+		FBC4E14E1AF0C022002C4C50 /* SmartClockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC4E14D1AF0C022002C4C50 /* SmartClockTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBC4E1481AF0C022002C4C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBC4E1261AF0C022002C4C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBC4E12D1AF0C022002C4C50;
+			remoteInfo = SmartClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBC4E12E1AF0C022002C4C50 /* SmartClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC4E1321AF0C022002C4C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC4E1331AF0C022002C4C50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBC4E1351AF0C022002C4C50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBC4E1361AF0C022002C4C50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBC4E1381AF0C022002C4C50 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBC4E1391AF0C022002C4C50 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBC4E13C1AF0C022002C4C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBC4E13E1AF0C022002C4C50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBC4E1411AF0C022002C4C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FBC4E1471AF0C022002C4C50 /* SmartClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC4E14C1AF0C022002C4C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBC4E14D1AF0C022002C4C50 /* SmartClockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartClockTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBC4E12B1AF0C022002C4C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC4E1441AF0C022002C4C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBC4E1251AF0C022002C4C50 = {
+			isa = PBXGroup;
+			children = (
+				FBC4E1301AF0C022002C4C50 /* SmartClock */,
+				FBC4E14A1AF0C022002C4C50 /* SmartClockTests */,
+				FBC4E12F1AF0C022002C4C50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBC4E12F1AF0C022002C4C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBC4E12E1AF0C022002C4C50 /* SmartClock.app */,
+				FBC4E1471AF0C022002C4C50 /* SmartClockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBC4E1301AF0C022002C4C50 /* SmartClock */ = {
+			isa = PBXGroup;
+			children = (
+				FBC4E1351AF0C022002C4C50 /* AppDelegate.h */,
+				FBC4E1361AF0C022002C4C50 /* AppDelegate.m */,
+				FBC4E1381AF0C022002C4C50 /* ViewController.h */,
+				FBC4E1391AF0C022002C4C50 /* ViewController.m */,
+				FBC4E13B1AF0C022002C4C50 /* Main.storyboard */,
+				FBC4E13E1AF0C022002C4C50 /* Images.xcassets */,
+				FBC4E1401AF0C022002C4C50 /* LaunchScreen.xib */,
+				FBC4E1311AF0C022002C4C50 /* Supporting Files */,
+			);
+			path = SmartClock;
+			sourceTree = "<group>";
+		};
+		FBC4E1311AF0C022002C4C50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC4E1321AF0C022002C4C50 /* Info.plist */,
+				FBC4E1331AF0C022002C4C50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBC4E14A1AF0C022002C4C50 /* SmartClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBC4E14D1AF0C022002C4C50 /* SmartClockTests.m */,
+				FBC4E14B1AF0C022002C4C50 /* Supporting Files */,
+			);
+			path = SmartClockTests;
+			sourceTree = "<group>";
+		};
+		FBC4E14B1AF0C022002C4C50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC4E14C1AF0C022002C4C50 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBC4E12D1AF0C022002C4C50 /* SmartClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC4E1511AF0C022002C4C50 /* Build configuration list for PBXNativeTarget "SmartClock" */;
+			buildPhases = (
+				FBC4E12A1AF0C022002C4C50 /* Sources */,
+				FBC4E12B1AF0C022002C4C50 /* Frameworks */,
+				FBC4E12C1AF0C022002C4C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartClock;
+			productName = SmartClock;
+			productReference = FBC4E12E1AF0C022002C4C50 /* SmartClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBC4E1461AF0C022002C4C50 /* SmartClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBC4E1541AF0C022002C4C50 /* Build configuration list for PBXNativeTarget "SmartClockTests" */;
+			buildPhases = (
+				FBC4E1431AF0C022002C4C50 /* Sources */,
+				FBC4E1441AF0C022002C4C50 /* Frameworks */,
+				FBC4E1451AF0C022002C4C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBC4E1491AF0C022002C4C50 /* PBXTargetDependency */,
+			);
+			name = SmartClockTests;
+			productName = SmartClockTests;
+			productReference = FBC4E1471AF0C022002C4C50 /* SmartClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBC4E1261AF0C022002C4C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = mojingato;
+				TargetAttributes = {
+					FBC4E12D1AF0C022002C4C50 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					FBC4E1461AF0C022002C4C50 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = FBC4E12D1AF0C022002C4C50;
+					};
+				};
+			};
+			buildConfigurationList = FBC4E1291AF0C022002C4C50 /* Build configuration list for PBXProject "SmartClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBC4E1251AF0C022002C4C50;
+			productRefGroup = FBC4E12F1AF0C022002C4C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBC4E12D1AF0C022002C4C50 /* SmartClock */,
+				FBC4E1461AF0C022002C4C50 /* SmartClockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBC4E12C1AF0C022002C4C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC4E13D1AF0C022002C4C50 /* Main.storyboard in Resources */,
+				FBC4E1421AF0C022002C4C50 /* LaunchScreen.xib in Resources */,
+				FBC4E13F1AF0C022002C4C50 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC4E1451AF0C022002C4C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBC4E12A1AF0C022002C4C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC4E13A1AF0C022002C4C50 /* ViewController.m in Sources */,
+				FBC4E1371AF0C022002C4C50 /* AppDelegate.m in Sources */,
+				FBC4E1341AF0C022002C4C50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBC4E1431AF0C022002C4C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC4E14E1AF0C022002C4C50 /* SmartClockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBC4E1491AF0C022002C4C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBC4E12D1AF0C022002C4C50 /* SmartClock */;
+			targetProxy = FBC4E1481AF0C022002C4C50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBC4E13B1AF0C022002C4C50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC4E13C1AF0C022002C4C50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBC4E1401AF0C022002C4C50 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBC4E1411AF0C022002C4C50 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBC4E14F1AF0C022002C4C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBC4E1501AF0C022002C4C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBC4E1521AF0C022002C4C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBC4E1531AF0C022002C4C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBC4E1551AF0C022002C4C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartClock.app/SmartClock";
+			};
+			name = Debug;
+		};
+		FBC4E1561AF0C022002C4C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartClock.app/SmartClock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBC4E1291AF0C022002C4C50 /* Build configuration list for PBXProject "SmartClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC4E14F1AF0C022002C4C50 /* Debug */,
+				FBC4E1501AF0C022002C4C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBC4E1511AF0C022002C4C50 /* Build configuration list for PBXNativeTarget "SmartClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC4E1521AF0C022002C4C50 /* Debug */,
+				FBC4E1531AF0C022002C4C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBC4E1541AF0C022002C4C50 /* Build configuration list for PBXNativeTarget "SmartClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC4E1551AF0C022002C4C50 /* Debug */,
+				FBC4E1561AF0C022002C4C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBC4E1261AF0C022002C4C50 /* Project object */;
+}
