@@ -1,0 +1,23 @@
+//
+//  SmartClockHeader.pch
+//  SmartClock
+//
+//  Created by taomojingato on 15/4/30.
+//  Copyright (c) 2015年 mojingato. All rights reserved.
+//
+
+#ifndef SmartClock_SmartClockHeader_pch
+#define SmartClock_SmartClockHeader_pch
+
+#import <Availability.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+
+#define privatekey                                                  @"SmartClock"
+#define USER_ID                                                        [[NSUserDefaults standardUserDefaults]objectForKey:@"userid"]
+
+
+
+#endif
+

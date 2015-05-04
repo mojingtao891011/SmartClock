@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14C2055" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Record" representedClassName="Record" syncable="YES">
+        <attribute name="amrData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="amrPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isSending" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isSendSuccess" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="recordStarTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="recordTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sendTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="wavData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="wavPath" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="record" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="nick" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNunber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="privatekeys" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="record" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Record" inverseName="user" inverseEntity="Record" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Record" positionX="-308" positionY="-9" width="128" height="193"/>
+        <element name="User" positionX="-18" positionY="81" width="128" height="133"/>
+    </elements>
+</model>
